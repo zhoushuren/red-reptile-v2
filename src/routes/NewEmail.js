@@ -1,8 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
-//import styles from './NewEmail.css';
-import { Table, Button,Input,Switch, Icon,Pagination } from 'antd';
-const Search = Input.Search;
+
+import { Table, Button,Input,Switch} from 'antd';
 
 class NewEmail extends React.Component{
     constructor(props){

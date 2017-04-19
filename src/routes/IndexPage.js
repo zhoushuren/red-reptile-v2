@@ -38,6 +38,7 @@ function IndexPage(props) {
                           <Menu.Item key="2"><Link to="/add_url">添加地址</Link></Menu.Item>
                           <Menu.Item key="3">定时任务</Menu.Item>
                           <Menu.Item key="4">历史记录</Menu.Item>
+                          <Menu.Item key="5"><Link to="/que_lib">题库的东西</Link></Menu.Item>
                       </SubMenu>
                       <SubMenu key="sub2" title={<span><Icon type="laptop" />论坛管理</span>}>
                           <Menu.Item key="5">用户</Menu.Item>

@@ -7,8 +7,8 @@
     "test": "test",
     "start": "roadhog server",
     "build": "roadhog build",
-    "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "lint": "eslint --ext .js src test"
+
   },
   "repository": {
     "type": "git",
