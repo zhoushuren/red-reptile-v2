@@ -6,6 +6,7 @@ const app = dva();
 
 app.model(require("./models/email"));
 app.model(require("./models/url"));
+app.model(require("./models/que"));
 
 // 2. Plugins
 // app.use({});
